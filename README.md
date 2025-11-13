@@ -36,3 +36,12 @@ Key stages
 6. Continuous deployment
    QA env
    UAT env
+
+Continuous integration 
+when a PR is opened CI pipeline is triggered and 
+it builds appn and runs test cases
+If pipeline passes PR is approved and merged to main
+
+CD 
+upon PR is merged CD pipeline is triggered and its deployed to staging or dev env
+Then deployed to Production.
