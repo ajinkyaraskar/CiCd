@@ -9,10 +9,8 @@ It can be triggered by
 push 
 pull
 schedule 
-Can be used for CICD and testing
-
+Can be used for CICD and testing  
 Any file that uses test_ will be considered test file by pytest
-
 
 CI: build and test that current code isnt broken whenever push changes or merge
 CD: after passing all tests deployment to various env like staging and production.
