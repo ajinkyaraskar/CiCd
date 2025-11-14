@@ -45,3 +45,7 @@ If pipeline passes PR is approved and merged to main
 CD 
 upon PR is merged CD pipeline is triggered and its deployed to staging or dev env
 Then deployed to Production.
+
+## main
+**womain**
+https://github.com/ajinkyaraskar/GitCiCd/tree/main
