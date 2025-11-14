@@ -23,7 +23,7 @@ We need a yaml for cicd workflow
 env 
 Dev > QA > UAT > Production
 
-Key stages
+**Key stages**
 1. Code
 2. version control: commit branches push pull resolve conflict
 3. code review: Peer review, Architect review
@@ -37,15 +37,24 @@ Key stages
    QA env
    UAT env
 
-Continuous integration 
+**Continuous integration** 
 when a PR is opened CI pipeline is triggered and 
 it builds appn and runs test cases
 If pipeline passes PR is approved and merged to main
 
-CD 
+**CD** 
 upon PR is merged CD pipeline is triggered and its deployed to staging or dev env
 Then deployed to Production.
 
 ## main
-**womain**
+**womain** hehe
+
+
+**.yml**
+
+name, on, job
+
+Event
+in workflow push, pull, merge, delete act as event
+Using "on" we define event
 https://github.com/ajinkyaraskar/GitCiCd/tree/main
